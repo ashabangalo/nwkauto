@@ -12,7 +12,7 @@ with manager.connect(host=host,
                      password=password,
                      device_params={'name': 'junos'}) as m:
     print m.dispatch('get-lldp-neighbors-information')
-    # Dispatch an RPC command yourself (obviously vendor-specific)
+    # Dispatch an RPC command yourself   (obviously vendor-specific)
 
 
 from pprint import pprint
