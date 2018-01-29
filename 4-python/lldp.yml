@@ -1,5 +1,5 @@
 ---
-# Provided as a second Tables/Views example - this is built in to PyEZ
+# Provided as a second Tables/Views example -this is built in to PyEZ
 LLDPNeighborTable:
   rpc: get-lldp-neighbors-information
   item: lldp-neighbor-information
